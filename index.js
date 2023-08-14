@@ -32,11 +32,9 @@ app.use(session({
         maxAge: 1000 * 60 * 60 * 24,
     },
     store: MongoStore.create({
-        // mongoUrl: 'mongodb+srv://kamranrafiq805:kamranrafiqsofi@cluster0406.8ritmss.mongodb.net/API_POLLING_SYSTEM',
-        // mongoUrl:'mongodb://127.0.0.1/API_POLLING_SYSTEM',
-        mongoUrl:`mongodb://127.0.0.1/${env.db}`,
-        //mongoUrl:`mongodb+srv://kamranrafiq805:kamranrafiqsofi@cluster0406.8ritmss.mongodb.net/${env.db}`
+       
         // mongoUrl:`mongodb://127.0.0.1/${env.db}`,
+        mongoUrl:`mongodb+srv://kamranrafiq805:kamranrafiqsofi@cluster0406.8ritmss.mongodb.net/${env.db}`
 
         collectionName: 'session',
         autoRemove: 'native'
