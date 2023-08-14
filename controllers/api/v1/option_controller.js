@@ -32,7 +32,7 @@ const Option=require('../../../models/option');
         }
 
 
-        const baseUrl = `https://polling-api-system-git-master-shakti1590.vercel.app/`
+        const baseUrl = `https://apiproject-ysk4.onrender.com`
 
         const option = await Option.create({ 'text': text, 'question_id': question._id });
         option.link_to_vote = `${baseUrl}/api/v1/options/${option.id}/add_vote`;
