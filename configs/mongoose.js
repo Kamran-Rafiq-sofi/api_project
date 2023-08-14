@@ -1,8 +1,8 @@
 const mongoose=require('mongoose');
 const env=require('./environment');
 // making db
-// const url='mongodb://127.0.0.1/API_POLLING_SYSTEM'
-const url=`mongodb://127.0.0.1/${env.db}`
+// const url=`mongodb://127.0.0.1/${env.db}`
+const url=`mongodb+srv://kamranrafiq805:kamranrafiqsofi@cluster0406.8ritmss.mongodb.net/${env.db}`
 console.log(env.db);
 // connecting to db
 mongoose.connect(url);
