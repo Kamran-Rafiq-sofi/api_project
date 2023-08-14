@@ -1,10 +1,4 @@
-// const development={
-//     name:'development',
-//     asset_path:'./assets',
-//     db:'API_POLLING_SYSTEM',
-//     session_cookie_key:'APIPOLLING'
-// }
-// module.exports=development;
+
 
 const production={
     name:'production',
@@ -18,4 +12,3 @@ const production={
 }
 module.exports=eval(process.env.API_ENVIRONMENT)==undefined? production:eval(process.env.API_ENVIRONMENT);
 
-// module.exports=eval(process.NODE_ENV)==undefined? development:production;
