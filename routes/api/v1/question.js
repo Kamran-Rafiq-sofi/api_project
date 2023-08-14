@@ -9,5 +9,5 @@ router.delete('/:id/delete',questionsController.delete)
 // get question object | details
 router.get('/:id',questionsController.getQuestion)
 // create option
-router.post('/:id/options/create',optionsController.create);
+router.post('/:id/option/create',optionsController.create);
 module.exports=router;
