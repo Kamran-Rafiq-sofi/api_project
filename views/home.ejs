@@ -1,0 +1,55 @@
+<%# # show message on staring of project %>
+<main>
+    <div class="card text-center" style="width: 80vw; margin: auto; margin-top:40px; border-radius: 14px; border:1px solid gray">
+        <div class="card-body"> 
+            <h5 class="card-title">Welcome to Api-Polling-System-App</h5>
+            <p class="card-text" style="border:1px solid black; border-radius: 14px; text-align: center; background-color:burlywood; font-size: 1.2rem;">
+                We would like to welcome you to our Api-Polling-System-App.</br>
+                This system is designed  in such a way that you can create</br>
+                an api polling system which can ensure intercation of a <br> 
+                user and an api. With this system, you will have the abi-<br
+                lity to create, delete, update, and vote questiosn raised<br> 
+                by any person.<br>
+                We believe that Api-Polling-System is an essential part of pr-<br>
+                ofessional development and a way to ensure that we are meeting</br>
+                our organizational goals. We encourage you to use this system</br> 
+                to its fullest potential.</br>
+            </p>
+        </div>
+    <!-- </div> -->
+
+
+    <!-- <div class="card text-center" style="width: 80vw; margin: auto; margin-top:40px; border-radius: 14px; border:1px solid gray"> -->
+        <div class="card-body"> 
+            <!-- <h5 class="card-title">Welcome to Api-Polling-System-App</h5> -->
+            <p class="card-text" style="border:1px solid black; border-radius: 14px; text-align: center; background-color:burlywood; font-size: 1.2rem;">
+                In order to use the system you need to follow certain steps.</br>
+                <ul style="border:1px solid black; border-radius: 14px; text-align: center; background-color:burlywood; font-size: 1.2rem;">
+                    <li>
+                        Go to postman to test api either <a href="https://www.postman.com/downloads/" target="_blank">download </a>it or use it's web version.
+                    </li>
+                    <li>
+                        for creating a question post a request using PORT method by using localhost:your_port/api/v1/question/create
+                    </li>
+                    <li>
+                        for getting a question post a request using GET method by using localhost:your_port/api/v1/question/:id
+                    </li>
+                    <li>
+                        for updating options to a question post a request using POST method by using localhost:your_port/api/v1/:id/options/create
+                    </li>
+                    <li>
+                        for deleting a question post a request using DELETE method by using localhost:your_port/api/v1/question/:id/delete
+                    </li>
+                    <li>
+                        for adding vote to a question post a request using GET method by using localhost:your_port/api/v1/option/:id/add_vote
+                    </li>
+                    <li>
+                        for deleting options post a request using DELETE method by using localhost:your_port/api/v1/option/:id/delete
+                    </li>
+                </ul>
+
+            </p>
+            <a href="https://www.postman.com" class="btn btn-primary" target="_blank">Get Started</a>
+        </div>
+    </div>
+</main>
